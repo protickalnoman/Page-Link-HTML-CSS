@@ -1,0 +1,1480 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+/*Home Page Topics List & Logo*/
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+ul li.active a{
+    background-color: black;
+    color: white;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+/*Country Button*/
+.countryButton{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.cbtn{
+    border: 5px solid black;
+    padding: 5px 500px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-size: 40px;
+}
+
+.cbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/*Divisions Buttons*/
+.divisionButton{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-50%, 50%);
+}
+
+.dbtn{
+    border: 1px solid black;
+    padding: 5px 10px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.dbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/*Barisal Division Button*/
+.barisalButton{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.bbtn{
+    border: 5px solid black;
+    padding: 5px 500px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-size: 40px;
+}
+
+.bbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+/*Barisal Division Locations Buttons*/
+.barisalLocationButton{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    transform: translate(-50%, 50%);
+}
+
+.blbtn1{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.blbtn1:hover{
+    background-color: black;
+    color: white;
+}
+
+.blbtn2{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.blbtn2:hover{
+    background-color: black;
+    color: white;
+}
+
+.blbtn3{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.blbtn3:hover{
+    background-color: black;
+    color: white;
+}
+
+.blbtn4{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.blbtn4:hover{
+    background-color: black;
+    color: white;
+}
+
+.blbtn5{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.blbtn5:hover{
+    background-color: black;
+    color: white;
+}
+
+.blbtn6{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.blbtn6:hover{
+    background-color: black;
+    color: white;
+}
+
+.blbtn7{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.blbtn7:hover{
+    background-color: black;
+    color: white;
+}
+
+.blbtn8{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.blbtn8:hover{
+    background-color: black;
+    color: white;
+}
+
+.blbtn9{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.blbtn9:hover{
+    background-color: black;
+    color: white;
+}
+
+.blbtn10{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.blbtn10:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/*Chittagong Division Button*/
+.chittagongButton{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.cbtn{
+    border: 5px solid black;
+    padding: 5px 500px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-size: 40px;
+}
+
+.cbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/*Chittagong Division Locations Buttons*/
+.chittagongLocationButton{
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    transform: translate(-50%, 50%);
+}
+
+.clbtn1{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.clbtn1:hover{
+    background-color: black;
+    color: white;
+}
+
+.clbtn2{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.clbtn2:hover{
+    background-color: black;
+    color: white;
+}
+
+.clbtn3{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.clbtn3:hover{
+    background-color: black;
+    color: white;
+}
+
+.clbtn4{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.clbtn4:hover{
+    background-color: black;
+    color: white;
+}
+
+.clbtn5{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.clbtn5:hover{
+    background-color: black;
+    color: white;
+}
+
+.clbtn6{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.clbtn6:hover{
+    background-color: black;
+    color: white;
+}
+
+.clbtn7{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.clbtn7:hover{
+    background-color: black;
+    color: white;
+}
+
+.clbtn8{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.clbtn8:hover{
+    background-color: black;
+    color: white;
+}
+
+.clbtn9{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.clbtn9:hover{
+    background-color: black;
+    color: white;
+}
+
+.clbtn10{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.clbtn10:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/*Dhaka Division Button*/
+.dhakaButton{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.dhbtn{
+    border: 5px solid black;
+    padding: 5px 500px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-size: 40px;
+}
+
+.dhbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+/*Dhaka Division Locations Buttons*/
+.dhakaLocationButton{
+    position: absolute;
+    top: 115%;
+    left: 45%;
+    transform: translate(-50%, 50%);
+}
+
+.dlbtn1{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.dlbtn1:hover{
+    background-color: black;
+    color: white;
+}
+
+.dlbtn2{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.dlbtn2:hover{
+    background-color: black;
+    color: white;
+}
+
+.dlbtn3{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.dlbtn3:hover{
+    background-color: black;
+    color: white;
+}
+
+.dlbtn4{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.dlbtn4:hover{
+    background-color: black;
+    color: white;
+}
+
+.dlbtn5{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.dlbtn5:hover{
+    background-color: black;
+    color: white;
+}
+
+.dlbtn6{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.dlbtn6:hover{
+    background-color: black;
+    color: white;
+}
+
+.dlbtn7{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.dlbtn7:hover{
+    background-color: black;
+    color: white;
+}
+
+.dlbtn8{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.dlbtn8:hover{
+    background-color: black;
+    color: white;
+}
+
+.dlbtn9{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.dlbtn9:hover{
+    background-color: black;
+    color: white;
+}
+
+.dlbtn10{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.dlbtn10:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/*Khulna Division Button*/
+.khulnaButton{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.kbtn{
+    border: 5px solid black;
+    padding: 5px 500px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-size: 40px;
+}
+
+.kbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+/*Khulna Division Locations Buttons*/
+.khulnaLocationButton{
+    position: absolute;
+    top: 155%;
+    left: 45%;
+    transform: translate(-50%, 50%);
+}
+
+.klbtn1{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.klbtn1:hover{
+    background-color: black;
+    color: white;
+}
+
+.klbtn2{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.klbtn2:hover{
+    background-color: black;
+    color: white;
+}
+
+.klbtn3{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.klbtn3:hover{
+    background-color: black;
+    color: white;
+}
+
+.klbtn4{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.klbtn4:hover{
+    background-color: black;
+    color: white;
+}
+
+.klbtn5{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.klbtn5:hover{
+    background-color: black;
+    color: white;
+}
+
+.klbtn6{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.klbtn6:hover{
+    background-color: black;
+    color: white;
+}
+
+.klbtn7{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.klbtn7:hover{
+    background-color: black;
+    color: white;
+}
+
+.klbtn8{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.klbtn8:hover{
+    background-color: black;
+    color: white;
+}
+
+.klbtn9{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.klbtn9:hover{
+    background-color: black;
+    color: white;
+}
+
+.klbtn10{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.klbtn10:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/*Mymensingh Division Button*/
+.mymensinghButton{
+    position: absolute;
+    top: 190%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.mbtn{
+    border: 5px solid black;
+    padding: 5px 500px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-size: 40px;
+}
+
+.mbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+/*Mymensingh Division Locations Buttons*/
+.mymensinghLocationButton{
+    position: absolute;
+    top: 195%;
+    left: 45%;
+    transform: translate(-50%, 50%);
+}
+
+.mlbtn1{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.mlbtn1:hover{
+    background-color: black;
+    color: white;
+}
+
+.mlbtn2{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.mlbtn2:hover{
+    background-color: black;
+    color: white;
+}
+
+.mlbtn3{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.mlbtn3:hover{
+    background-color: black;
+    color: white;
+}
+
+.mlbtn4{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.mlbtn4:hover{
+    background-color: black;
+    color: white;
+}
+
+.mlbtn5{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.mlbtn5:hover{
+    background-color: black;
+    color: white;
+}
+
+.mlbtn6{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.mlbtn6:hover{
+    background-color: black;
+    color: white;
+}
+
+.mlbtn7{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.mlbtn7:hover{
+    background-color: black;
+    color: white;
+}
+
+.mlbtn8{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.mlbtn8:hover{
+    background-color: black;
+    color: white;
+}
+
+.mlbtn9{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.mlbtn9:hover{
+    background-color: black;
+    color: white;
+}
+
+.mlbtn10{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.mlbtn10:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/*Rangpur Division Button*/
+.rangpurButton{
+    position: absolute;
+    top: 230%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.rnbtn{
+    border: 5px solid black;
+    padding: 5px 500px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-size: 40px;
+}
+
+.rnbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+/*Rangpur Division Locations Buttons*/
+.rangpurLocationButton{
+    position: absolute;
+    top: 235%;
+    left: 45%;
+    transform: translate(-50%, 50%);
+}
+
+.rnlbtn1{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rnlbtn1:hover{
+    background-color: black;
+    color: white;
+}
+
+.rnlbtn2{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rnlbtn2:hover{
+    background-color: black;
+    color: white;
+}
+
+.rnlbtn3{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rnlbtn3:hover{
+    background-color: black;
+    color: white;
+}
+
+.rnlbtn4{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rnlbtn4:hover{
+    background-color: black;
+    color: white;
+}
+
+.rnlbtn5{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rnlbtn5:hover{
+    background-color: black;
+    color: white;
+}
+
+.rnlbtn6{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rnlbtn6:hover{
+    background-color: black;
+    color: white;
+}
+
+.rnlbtn7{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rnlbtn7:hover{
+    background-color: black;
+    color: white;
+}
+
+.rnlbtn8{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rnlbtn8:hover{
+    background-color: black;
+    color: white;
+}
+
+.rnlbtn9{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rnlbtn9:hover{
+    background-color: black;
+    color: white;
+}
+
+.rnlbtn10{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rnlbtn10:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+/*Rajshahi Division Button*/
+.rajshahiButton{
+    position: absolute;
+    top: 270%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.rjbtn{
+    border: 5px solid black;
+    padding: 5px 500px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-size: 40px;
+}
+
+.rjbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+/*Rajshahi Division Locations Buttons*/
+.rajshahiLocationButton{
+    position: absolute;
+    top: 275%;
+    left: 45%;
+    transform: translate(-50%, 50%);
+}
+
+.rjlbtn1{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rjlbtn1:hover{
+    background-color: black;
+    color: white;
+}
+
+.rjlbtn2{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rjlbtn2:hover{
+    background-color: black;
+    color: white;
+}
+
+.rjlbtn3{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rjlbtn3:hover{
+    background-color: black;
+    color: white;
+}
+
+.rjlbtn4{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rjlbtn4:hover{
+    background-color: black;
+    color: white;
+}
+
+.rjlbtn5{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rjlbtn5:hover{
+    background-color: black;
+    color: white;
+}
+
+.rjlbtn6{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rjlbtn6:hover{
+    background-color: black;
+    color: white;
+}
+
+.rjlbtn7{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rjlbtn7:hover{
+    background-color: black;
+    color: white;
+}
+
+.rjlbtn8{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rjlbtn8:hover{
+    background-color: black;
+    color: white;
+}
+
+.rjlbtn9{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rjlbtn9:hover{
+    background-color: black;
+    color: white;
+}
+
+.rjlbtn10{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.rjlbtn10:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+/*Sylhet Division Button*/
+.sylhetButton{
+    position: absolute;
+    top: 310%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.sbtn{
+    border: 5px solid black;
+    padding: 5px 500px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-size: 40px;
+}
+
+.sbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+/*Sylhet Division Locations Buttons*/
+.sylhetLocationButton{
+    position: absolute;
+    top: 315%;
+    left: 45%;
+    transform: translate(-50%, 50%);
+}
+
+.slbtn1{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.slbtn1:hover{
+    background-color: black;
+    color: white;
+}
+
+.slbtn2{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.slbtn2:hover{
+    background-color: black;
+    color: white;
+}
+
+.slbtn3{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.slbtn3:hover{
+    background-color: black;
+    color: white;
+}
+
+.slbtn4{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.slbtn4:hover{
+    background-color: black;
+    color: white;
+}
+
+.slbtn5{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.slbtn5:hover{
+    background-color: black;
+    color: white;
+}
+
+.slbtn6{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.slbtn6:hover{
+    background-color: black;
+    color: white;
+}
+
+.slbtn7{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.slbtn7:hover{
+    background-color: black;
+    color: white;
+}
+
+.slbtn8{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.slbtn8:hover{
+    background-color: black;
+    color: white;
+}
+
+.slbtn9{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.slbtn9:hover{
+    background-color: black;
+    color: white;
+}
+
+.slbtn10{
+    border: 1px solid black;
+    padding: 5px 10px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.slbtn10:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
